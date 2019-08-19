@@ -52,7 +52,6 @@ def turn_count(board)
   board.each do |position_status|
     if position_status == "X" || position_status == "O"
         turns = turns + 1 
-      else false
     end
   end
   turns
